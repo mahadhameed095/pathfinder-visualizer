@@ -16,7 +16,6 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "deploy": "npm run build && cd dist && git init && git config user.email \"deploy@local\" && git config user.name \"deployment\" && git add . && git commit -m 'deploy' && git push git@github.com:mahadhameed095/pathfinder-visualizer.git HEAD:dist --force"
+    "build": "vite build"
   }
 }

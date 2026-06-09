@@ -19,4 +19,11 @@ jobs:
       - run: npm run build
 
       - name: Push to dist branch
-        run: npm run deploy
+        run: |
+          cd dist
+          git init
+          git config user.email "deploy@local"
+          git config user.name "deploy"
+          git add .
+          git commit -m "deploy"
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/mahadhameed095/pathfinder-visualizer.git HEAD:dist --force
