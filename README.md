@@ -1,5 +1,5 @@
 # Path-finding Algorithms Visualizer
-A pathfinder visualizer app built with react js. See it live [here]( https://mahadhameed095.github.io/Pathfinder-Visualizer/).
+A pathfinder visualizer app built with react js. See it live [here](https://mahadhameed095.github.io/pathfinder-visualizer/).
 
 ## Features
 + A graph visualized as interactable grid of cells.
